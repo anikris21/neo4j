@@ -13,7 +13,7 @@ func main() {
     // URI examples: "neo4j://localhost", "neo4j+s://xxx.databases.neo4j.io"
     dbUri := "neo4j://localhost:7687"
     dbUser := "neo4j"
-    dbPassword := "Wal&2021"
+    dbPassword := "=="
     driver, err := neo4j.NewDriverWithContext(
         dbUri,
         neo4j.BasicAuth(dbUser, dbPassword, ""))
